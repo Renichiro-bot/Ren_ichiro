@@ -1,0 +1,6 @@
+{
+  "name": "Vellum",
+  "description": "Tactile, precision-crafted notes and productivity workspace featuring dark/light themes and intuitive drafting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Vellum</string>
+    <string name="widget_notes_title">Vellum Notes</string>
+    <string name="widget_notes_description">Quickly view recent notes and draft new thoughts.</string>
+    <string name="widget_empty_text">No notes yet. Tap + to create one.</string>
+    <string name="shortcut_new_note_short">New Note</string>
+    <string name="shortcut_new_note_long">Create a new note</string>
+    <string name="shortcut_search_short">Search</string>
+    <string name="shortcut_search_long">Search notes</string>
+    <string name="shortcut_favorites_short">Favorites</string>
+    <string name="shortcut_favorites_long">View favorite notes</string>
+</resources>

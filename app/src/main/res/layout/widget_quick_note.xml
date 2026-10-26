@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_quick_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_background"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/widget_quick_icon"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="4dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_widget_notes" />
+
+    <TextView
+        android:id="@+id/widget_quick_draft_btn"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/widget_item_background"
+        android:gravity="center_vertical"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:text="Draft a new note…"
+        android:textColor="@color/widget_on_surface_variant"
+        android:textSize="13sp" />
+
+    <ImageButton
+        android:id="@+id/widget_quick_search_btn"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="4dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/shortcut_search_short"
+        android:padding="7dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_widget_search" />
+
+    <ImageButton
+        android:id="@+id/widget_quick_add_btn"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:background="@drawable/widget_add_btn_bg"
+        android:contentDescription="@string/shortcut_new_note_short"
+        android:padding="7dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_widget_add" />
+</LinearLayout>
